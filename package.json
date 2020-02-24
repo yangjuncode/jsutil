@@ -1,0 +1,19 @@
+{
+  "name": "yjsutil",
+  "version": "1.0.0",
+  "description": "jsutil",
+  "main": "dist/jsutil.js",
+  "types": "dist/jsutil.d.ts",
+  "repository": "git@github.com:yangjuncode/jsutil.git",
+  "author": "yangjun <290968698@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@protobufjs/utf8": "^1.1.0"
+  },
+  "scripts": {
+    "build": "tsc "
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
