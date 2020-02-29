@@ -18,7 +18,7 @@ publish:
   tags:
     - 10.20.30.5
   rules:
-    - if: '$CI_COMMIT_REF_NAME == "1-ci-npm"'
+    - if: '$CI_COMMIT_REF_NAME == "master"'
       changes:
         - package.json
   script:
